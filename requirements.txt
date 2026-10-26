@@ -1,0 +1,7 @@
+# MonsterDeleter 运行/打包依赖
+PySide6>=6.6
+send2trash>=1.8
+
+# 以下仅生成动画素材 / 打包时需要
+Pillow>=10.0
+pyinstaller>=6.0

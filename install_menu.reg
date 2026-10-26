@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+;  MonsterDeleter —— 安装右键菜单【召唤大将怪兽摧毁文件】
+; ============================================================
+;  使用前：把下面两处 EXE_PATH 替换成你 MonsterDeleter.exe 的真实路径
+;  示例：  "D:\Tools\MonsterDeleter\MonsterDeleter.exe"
+;  然后双击本 .reg 文件导入即可。
+;  卸载菜单见 uninstall_menu.reg
+; ============================================================
+
+[HKEY_CLASSES_ROOT\*\shell\MonsterDeleter]
+@="召唤大将怪兽摧毁文件"
+"Icon"="EXE_PATH,0"
+"Position"="Top"
+
+[HKEY_CLASSES_ROOT\*\shell\MonsterDeleter\command]
+@="\"EXE_PATH\" \"%1\""

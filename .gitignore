@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Preview / temp
+assets/_preview_*.png
+
+# IDE
+.idea/
+.vscode/
